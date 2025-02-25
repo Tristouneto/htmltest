@@ -55,11 +55,11 @@ a.nav-link {
     height: 80px;  
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 992px) { /*Changement Barre Nav quand écran < 992px*/
     .navbar-collapse {
       position: absolute;
       top: 100%;
-      background: #187bbd;
+      background: #0f8575bd;
       left: -100px;
       right: 0;
       padding: 10px;
@@ -67,10 +67,10 @@ a.nav-link {
     }
     .navbar-collapse.show {
       position: absolute;
-      top: 100%;
+      top: 73px;
       left: -100px;
       z-index: 10;
-      background: #187bbd;
+      background: #0f8575bd;
     }
   }
 
@@ -101,6 +101,7 @@ a.nav-link {
     filter: invert(100%);
 }
 
+/*Permet de faire un dégrader quand on survole les fléches du carousel*/
 .carousel-control-next:hover {
     background: linear-gradient(to right, rgb(255, 255, 255, 0), 75%, rgb(0, 0, 0))
 }
