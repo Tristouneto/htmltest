@@ -58,7 +58,7 @@ a.nav-link {
 @media screen and (max-width: 992px) { /*Changement Barre Nav quand écran < 992px*/
     .navbar-collapse {
       position: absolute;
-      top: 100%;
+      top: 72px;
       background: #0f8575bd;
       left: -100px;
       right: 0;
@@ -67,7 +67,7 @@ a.nav-link {
     }
     .navbar-collapse.show {
       position: absolute;
-      top: 73px;
+      top: 72px;
       left: -100px;
       z-index: 10;
       background: #0f8575bd;
